@@ -1,0 +1,87 @@
+.basket {
+    margin-bottom: 16px;
+    &-container {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+    &-content {
+      &__block {
+        display: flex;
+        background: #ffffff;
+        border: 1px solid #f0f0f0;
+        border-radius: 12px;
+        width: 850px;
+        height: 152px;
+        justify-content: space-between;
+        align-items: center;
+        &__body {
+            display: flex;
+            align-items: center;
+            img {
+                margin: 0 16px;
+                width: 120px;
+                height: 120px;
+            }
+            &__text {
+                &__name {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #191919;
+                }
+                &__descr {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #191919;
+                }
+            }
+        }
+        &__price {
+            display: flex;
+            align-items: center;
+            &__text {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                color: #FF7010;
+                margin-right:24px ;
+            }
+            &__count {
+                margin-right: 40px;
+                background: #FFEEE2;
+                border-radius: 6px;
+                width: 92px;
+                height: 36px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: #FF7010;
+                span {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+                button {
+                    background: none;
+                    border: none;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    color: #FF7010;
+                    cursor: pointer;
+                }
+            }
+        }
+      }
+    }
+  }

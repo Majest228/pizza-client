@@ -1,0 +1,245 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(25, 25, 25, 0.4);
+  backdrop-filter: blur(32px);
+  animation-name: appear;
+  animation-duration: 300ms;
+
+}
+
+.modal-dialog {
+  border-radius: 24px;
+  width: 1030px;
+  background: white;
+  margin: 0 20px;
+  height: 720px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(93, 13, 19, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slide-in;
+  animation-duration: 0.5s;
+}
+
+.modal-header,
+.modal-footer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.modal-body {
+  overflow: auto;
+}
+
+.modal-content {
+  padding: 1rem;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(-150px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  &__img {
+    margin-top: 90px;
+    width: 450px;
+    height: 450px;
+    margin-right: 30px;
+  }
+  &__body {
+    &__text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      color: #191919;
+      margin-left: 40px;
+    }
+    &__products {
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        li {
+          cursor: pointer;
+          width: 105px;
+          height: 105px;
+          background: #ffffff;
+          border: 1px solid #f0f0f0;
+          border-radius: 12px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        p {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          color: #191919;
+          width: 103px;
+          text-align: center;
+        }
+      }
+    }
+    &__types {
+      ul {
+        list-style: none;
+        display: flex;
+        li {
+          font-family: "SF Pro Text";
+          cursor: pointer;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          width: 240px;
+          height: 48px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    &__size {
+      ul {
+        list-style: none;
+        display: flex;
+        li {
+          width: 159px;
+          cursor: pointer;
+          height: 44px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: "SF Pro Text";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+        }
+      }
+    }
+    &__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__btn {
+        cursor: pointer;
+        background: #ff7010;
+        border-radius: 6px;
+        width: 155px;
+        height: 48px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffff;
+        border: none;
+      }
+      &__price {
+        display: flex;
+        align-items: center;
+        &__text {
+          margin-right: 14px;
+          margin-left: 40px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 28px;
+          color: #ff7010;
+        }
+        &__width {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          color: #a5a5a5;
+        }
+      }
+    }
+    &__list {
+      font-family: "SF Pro Text";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      background: #ffffff;
+      border: 1px solid #f0f0f0;
+      border-radius: 6px;
+    }
+  }
+}
+
+.active {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  background: #ff7010;
+  border-radius: 6px;
+  color: #f0f0f0;
+}
+
+.modal-content__body__products__text {
+  margin-left: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #191919;
+}
+
+.modal-content__body__upper {
+  display: flex;
+  justify-content: space-between;
+  button {
+    background: none;
+    border: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+ 
+}

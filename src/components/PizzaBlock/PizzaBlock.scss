@@ -1,0 +1,48 @@
+.pizza__item {
+	background: #ffffff;
+	border: 1px solid #f0f0f0;
+	border-radius: 12px;
+	max-width: 300px;
+	max-height: 580px;
+	margin-bottom: 30px;
+	&-text {
+		margin-left: 20px;
+		max-width: 260px;
+		min-height: 160px;
+	}
+	&-img {
+		max-width: 300px;
+		max-height: 300px;
+	}
+	&-title {
+		font-family: 'Inter';
+		font-size: 18px;
+		line-height: 24px;
+		color: #191919;
+	}
+	&-description {
+		font-family: 'Inter';
+		font-size: 16px;
+		line-height: 22px;
+		color: #191919;
+	}
+	&-footer {
+		margin-left: 20px;
+		display: flex;
+		margin-bottom: 20px;
+		&-btn {
+			background: #ff7010;
+			border-radius: 6px;
+			padding: 13px 32px;
+			margin-right: 32px;
+			color: #f0f0f0;
+			border: none;
+		}
+		&-price {
+			font-family: 'Inter';
+			font-size: 18px;
+			line-height: 24px;
+			color: #ff7010;
+		}
+	}
+}

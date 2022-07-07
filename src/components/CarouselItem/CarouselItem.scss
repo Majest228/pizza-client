@@ -1,0 +1,29 @@
+$primary: #ff7010;
+$red: #e23535;
+
+.orange {
+	background-color: $primary;
+}
+
+.red {
+	background-color: $red;
+}
+
+.carousel__item {
+	min-width: 340px;
+	min-height: 343px;
+	border-radius: 12px;
+	&-img {
+		border-radius: 12px;
+	}
+	&-title {
+		font-family: 'Inter', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 28px;
+		max-width: 272px;
+		padding-left: 22px;
+		color: #ffffff;
+	}
+}
