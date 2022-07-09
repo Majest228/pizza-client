@@ -1,0 +1,18 @@
+.btn {
+ 
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: black;
+    img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.basketblock-content__block__text__title {
+    display: flex;
+    justify-content: space-between;
+}

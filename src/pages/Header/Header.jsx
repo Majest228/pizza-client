@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import Promo from "../../components/Promo/Promo";
 import logo from "../../assets/img/logo.svg";
 import "./Header.scss";
 import Trash from "../../components/Trash/Trash";
@@ -30,15 +29,17 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="hr"></div>
-      <Promo />
-      <div className="header__container">
-        <div className="header__content">
-          <div className="header__content-left">
-            <Link className="header__content-left-logo" to="/">
-              <img src={logo} alt="" />
+      <div className="header-container">
+        <div className="header-content">
+          <div className="header-content__left">
+            <Link to="/" className="header-content__left__logo">
+              <img
+                className="header-content__left__logo__img"
+                src={logo}
+                alt=""
+              />
+              Куда пицца
             </Link>
-            <h3 className="header__content-left-text">Куда пицца</h3>
           </div>
           <nav className="header-nav">
             <ul className="header-nav__list">
@@ -76,30 +77,54 @@ const Header = () => {
                   <img src={arrow} alt="" />
                 </div>
                 {isShow ? (
-                  <div className="block">
-                    <ul className="block-list">
-                      <Link className="block-list__link" to="/">
+                  <div className="header-nav__list__link__blockmodal">
+                    <ul className="header-nav__list__link__blockmodal__list">
+                      <Link
+                        className="header-nav__list__link__blockmodal__list__link"
+                        to="/"
+                      >
                         Акции
                       </Link>
-                      <Link className="block-list__link" to="/">
+                      <Link
+                        className="header-nav__list__link__blockmodal__list__link"
+                        to="/"
+                      >
                         О компании
                       </Link>
-                      <Link className="block-list__link" to="/">
+                      <Link
+                        className="header-nav__list__link__blockmodal__list__link"
+                        to="/"
+                      >
                         Пользовательское соглашение
                       </Link>
-                      <Link className="block-list__link" to="/">
+                      <Link
+                        className="header-nav__list__link__blockmodal__list__link"
+                        to="/"
+                      >
                         Условия гарантии
                       </Link>
-                      <Link className="block-list__link" to="/">
+                      <Link
+                        className="header-nav__list__link__blockmodal__list__link"
+                        to="/"
+                      >
                         Ресторан
                       </Link>
-                      <Link className="block-list__link" to="/">
+                      <Link
+                        className="header-nav__list__link__blockmodal__list__link"
+                        to="/"
+                      >
                         Контакты
                       </Link>
-                      <Link className="block-list__link" to="/">
+                      <Link
+                        className="header-nav__list__link__blockmodal__list__link"
+                        to="/"
+                      >
                         Поддержка
                       </Link>
-                      <Link className="block-list__link" to="/">
+                      <Link
+                        className="header-nav__list__link__blockmodal__list__link"
+                        to="/"
+                      >
                         Отследить заказ
                       </Link>
                     </ul>
@@ -110,7 +135,8 @@ const Header = () => {
               </Link>
             </ul>
           </nav>
-          <div className="header__content-right">
+
+          <div className="header-content__right">
             <Trash changeShowBasket={changeShowBasket} />
           </div>
           {isShowBasket ? (
@@ -118,6 +144,7 @@ const Header = () => {
           ) : (
             ""
           )}
+          <div className="header-navmobile"></div>
         </div>
       </div>
     </div>
@@ -125,3 +152,4 @@ const Header = () => {
 };
 
 export default Header;
+

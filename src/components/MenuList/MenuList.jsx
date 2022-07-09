@@ -62,7 +62,7 @@ const MenuList = () => {
     },
   ];
   return (
-    <div className="menu__list">
+    <div className="menu-list">
       {menu.map((item) => (
         <MenuItem
           imageUrl={item.imageUrl}

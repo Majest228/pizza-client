@@ -12,9 +12,7 @@ const CartItem = ({ item, closeModal }) => {
   const [activeSize, setActiveSize] = useState(0);
 
   const dispatch = useDispatch();
-  // const cartItem = useSelector((state) =>
-  //   state.cart.items.find((obj) => obj.id === id)
-  // );
+
   const onChangeActiveType = (id) => {
     setActiveType(id);
   };

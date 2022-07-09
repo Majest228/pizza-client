@@ -1,6 +1,40 @@
-.menu__list {
-	display: flex;
-	max-width: 1467px;
-	margin: 26px auto;
-	justify-content: space-between;
+@import "../../variables.scss";
+
+.menu-list {
+  display: flex;
+  max-width: 1467px;
+  margin: 20px auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media only screen and (max-width: $xl) {
+  .menu-list {
+    max-width: 921px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: $lg) {
+  .menu-list {
+    max-width: 769px;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: $md) {
+  .menu-list {
+    max-width: 577px;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: $sm) {
+  .menu-list {
+    max-width: 321px;
+    margin: 20px auto;
+  }
 }

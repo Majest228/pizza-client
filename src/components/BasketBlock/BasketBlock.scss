@@ -15,7 +15,7 @@
   animation-name: appear;
   animation-duration: 300ms;
   &-modal {
-    width: 420px;
+    width: 520px;
     background: white;
     height: 100vh;
     display: flex;
@@ -33,9 +33,11 @@
   &-content {
     margin-left: 20px;
     &__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       position: absolute;
       bottom: 12px;
-
       span {
         font-family: "Inter";
         font-style: normal;
@@ -44,19 +46,6 @@
         line-height: 28px;
         color: #ff7010;
         margin-right: 60px;
-      }
-      button {
-        background: #ff7010;
-        border-radius: 6px;
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        color: #ffffff;
-        padding: 13px 24px;border: none;
-        cursor: pointer;
-        text-decoration: none;
       }
     }
     &__text {
@@ -78,7 +67,7 @@
       display: flex;
       align-items: center;
       margin-top: 20px;
-      width: 380px;
+      width: 480px;
       height: 126px;
       background: #ffffff;
       border: 1px solid #f0f0f0;
@@ -181,3 +170,32 @@
   }
 }
 
+.basketblock-content__footer__btn__clear {
+  background: #dad9d9;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin-left: 10px;
+  border: none;
+}
+
+.basketblock-content__footer__btn {
+  background: #ff7010;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}

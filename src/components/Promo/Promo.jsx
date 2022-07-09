@@ -7,46 +7,54 @@ import user from "../../assets/img/user.svg";
 const Promo = () => {
   return (
     <div className="promo">
-      <div className="promo__container">
-        <div className="promo__content">
-          <div className="promo__content-left">
-            <div className="promo__content-left-gps">
-              <img src={gps} alt="" className="promo__content-left-gps-img" />
-              <h3 className="promo__content-left-gps-text">Москва</h3>
-              <button className="promo__content-left-gps-arrow">
+      <div className="promo-container">
+        <div className="promo-content">
+          <div className="promo-content__left">
+            <div className="promo-content__left__gps">
+              <img src={gps} alt="" className="promo-content__left__gps__img" />
+              <h3 className="promo-content__left__gps__title">Москва</h3>
+              <button className="promo-content__left__gps__choose">
                 <img
                   src={arrow}
                   alt=""
-                  className="promo__content-left-gps-imgArrow"
+                  className="promo-content__left__gps__choose__arrow"
                 />
               </button>
             </div>
-            <div className="promo__content-left-check">
-              <p className="promo__content-left-check-text">Проверить адрес</p>
+            <div className="promo-content__left__address">
+              <p className="promo-content__left__address__text">
+                Проверить адрес
+              </p>
             </div>
-            <div className="promo__content-left-delivery">
-              <p className="promo__content-left-delivery-text">
-                Среднее время доставки*:<span className="time">00:24:19</span>
+            <div className="promo-content__left__time">
+              <p className="promo-content__left__time__text">
+                Среднее время доставки*:
+                <span className="promo-content__left__time__text__time">
+                  00:24:19
+                </span>
               </p>
             </div>
           </div>
-          <div className="promo__content-right">
-            <div className="promo__content-right-time">
-              <p className="promo__content-right-time-text">
+          <div className="promo-content__right">
+            <div className="promo-content__right__work">
+              <p className="promo-content__right__work__text">
                 Время работы: с 11:00 до 23:00
               </p>
             </div>
-            <div className="promo__content-right-user">
+            <div className="promo-content__right__login">
               <img
                 src={user}
-                className="promo__content-right-user-img"
+                className="promo-content__right__login__img"
                 alt=""
               />
-              <p className="promo__content-right-user-text">Войти в аккаунт</p>
+              <button className="promo-content__right__login__text">
+                Войти в аккаунт
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <div className="line"></div>
     </div>
   );
 };

@@ -4,9 +4,9 @@ import "./MenuItem.scss";
 const MenuItem = ({ imageUrl, title, linkUrl }) => {
   return (
     <a href={`#${linkUrl}`}>
-      <div className="menu__item">
-        <img className="menu__item-img" src={imageUrl} alt="" />
-        <h3 className="menu__item-title">{title}</h3>
+      <div className="menu-item">
+        <img className="menu-item__img" src={imageUrl} alt="" />
+        <h3 className="menu-item__title">{title}</h3>
       </div>
     </a>
   );

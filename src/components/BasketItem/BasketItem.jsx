@@ -1,7 +1,20 @@
 import React from "react";
+import { decItem, incItem } from "../../redux/slice/cartSlice";
 import "./BasketItem.scss";
+import { useDispatch, useSelector } from "react-redux";
 
 const BasketItem = ({ imageUrl, id, title, description, price, count }) => {
+  const dispatch = useDispatch();
+  const { totalPrice } = useSelector((state) => state.cart);
+
+  const onIncItem = () => {
+    dispatch(incItem({ id }));
+  };
+
+  const onDecItem = () => {
+    dispatch(decItem({ id }));
+  };
+
   return (
     <div className="basket">
       <div className="basket-content">
@@ -17,12 +30,12 @@ const BasketItem = ({ imageUrl, id, title, description, price, count }) => {
           </div>
           <div className="basket-content__block__price">
             <div className="basket-content__block__price__count">
-              <button>-</button>
-              <span>1</span>
-              <button>+</button>
+              <button onClick={onDecItem}>-</button>
+              <span>{count}</span>
+              <button onClick={onIncItem}>+</button>
             </div>
             <p className="basket-content__block__price__text">
-              {price * count}
+              {price * count} ₽
             </p>
           </div>
         </div>

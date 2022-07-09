@@ -1,7 +1,7 @@
 {
   "pizzas": [
     {
-      "id": 0,
+      "id": "9107b9a0-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/01/28/5b956b732c8e4a94366e34647403c2e52a9b5a8c.png.webp",
       "title": "Маргарита",
       "description": "Соус красный, сыр моцарелла, томаты черри",
@@ -38,7 +38,7 @@
       "category": "Пицца"
     },
     {
-      "id": 1,
+      "id": "9107b9a1-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/bb3641e823aae215bdeb0770be7157e0bdc97577.png.webp",
       "title": "Пепперони",
       "description": "Соус красный, сыр моцарелла, пепперони",
@@ -75,7 +75,7 @@
       "category": "Пицца"
     },
     {
-      "id": 2,
+      "id": "9107b9a2-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/6bd9a1c65de865eb511d1229f2abcdc4a430039b.png.webp",
       "title": "Ветчина и грибы",
       "description": "Соус красный, сыр моцарелла, ветчина, шампиньоны",
@@ -112,7 +112,7 @@
       "category": "Пицца"
     },
     {
-      "id": 3,
+      "id": "9107b9a3-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/5f9738e6c673d3789fb735ff895bc7059f5c10b3.png.webp",
       "title": "Гавайская",
       "description": "Соус красный, сыр моцарелла, ветчина, ананасы",
@@ -149,7 +149,7 @@
       "category": "Пицца"
     },
     {
-      "id": 4,
+      "id": "9107b9a4-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/16f545b4e6d105d071c6f4f77a04ece19bdbd117.png.webp",
       "title": "Тропиканка",
       "description": "Соус красный, сыр моцарелла, цыплёнок, ананас, халапеньо",
@@ -186,7 +186,7 @@
       "category": "Пицца"
     },
     {
-      "id": 5,
+      "id": "9107b9a5-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/2c5d8d447c1fc52eddb688941fa9b92da28a37e2.png.webp",
       "title": "Барбекю",
       "description": "Соус красный, сыр моцарелла, цыплёнок, маринованные огурцы, соус барбекю",
@@ -223,7 +223,7 @@
       "category": "Пицца"
     },
     {
-      "id": 6,
+      "id": "9107b9a6-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/a299c9052bee93c8dd22467bfe6300200602f028.png.webp",
       "title": "Песто",
       "description": "Соус красный, сыр моцарелла, цыплёнок, томаты черри, соус песто",
@@ -260,7 +260,7 @@
       "category": "Пицца"
     },
     {
-      "id": 7,
+      "id": "9107b9a7-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/a299c9052bee93c8dd22467bfe6300200602f028.png.webp",
       "title": "Песто",
       "description": "Соус красный, сыр моцарелла, цыплёнок, томаты черри, соус песто",
@@ -297,7 +297,7 @@
       "category": "Пицца"
     },
     {
-      "id": 8,
+      "id": "9107b9a8-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/f338151510d0ebfa39b4ce4a34e6b63bad918395.png.webp",
       "title": "Пепперони с грибами",
       "description": "Соус красный, сыр моцарелла, цыплёнок, томаты черри, соус песто",
@@ -334,7 +334,7 @@
       "category": "Пицца"
     },
     {
-      "id": 9,
+      "id": "9107b9a9-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/f338151510d0ebfa39b4ce4a34e6b63bad918395.png.webp",
       "title": "Четыре сыра",
       "description": "Соус красный, сыр моцарелла, сыр пармезан, сыр чеддер, сыр гарганзола",
@@ -371,7 +371,7 @@
       "category": "Пицца"
     },
     {
-      "id": 10,
+      "id": "9107b9aa-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/c058ee452ad20e56639556731fa6e8ccf0c04c8f.png.webp",
       "title": "Груша",
       "description": "Сметана, сыр моцарелла, груша, мёд, грецкий орех",
@@ -408,7 +408,7 @@
       "category": "Пицца"
     },
     {
-      "id": 11,
+      "id": "9107b9ab-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/02/7647ea5faf8ce6642c0969412897e8e1308aa4cf.png.webp",
       "title": "Цезарь",
       "description": "Соус белый, сыр моцарелла, цыплёнок, салат айсберг, томаты черри",
@@ -447,7 +447,7 @@
   ],
   "sushies": [
     {
-      "id": 0,
+      "id": "9107b9ac-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/e0af77a31eb275b5203b3580118da184a8bddbbe.png.webp",
       "title": "Филадельфия хит ролл",
       "description": "Рис, нори, сыр филадельфия, лосось",
@@ -456,7 +456,7 @@
       "weight ": 167
     },
     {
-      "id": 1,
+      "id": "9107b9ad-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/225a527a98aa886c2c6ed26511d984fc5a396a9e.png.webp",
       "title": "Авокадный фреш ролл",
       "description": "Рис, нори, лосось, сыр филадельфия, авокадо, майонез, соус унаги, кунжут",
@@ -465,7 +465,7 @@
       "weight ": 170
     },
     {
-      "id": 2,
+      "id": "9107b9ae-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/975a0d7eae85d79b96937b0d0bd11f48ee6d8ee1.png.webp",
       "title": "Филадельфия с огурцом ролл",
       "description": "Рис, нори, сыр филадельфия, огурец, лосось",
@@ -474,7 +474,7 @@
       "weight ": 167
     },
     {
-      "id": 3,
+      "id": "9107b9af-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/0723a2f14994b5363b6ccb7f1e10eb0e757baaeb.png.webp",
       "title": "Филадельфия с креветкой ролл",
       "description": "Рис, нори, сыр филадельфия, креветки, лосось",
@@ -483,7 +483,7 @@
       "weight ": 167
     },
     {
-      "id": 4,
+      "id": "9107b9b0-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/76d21149b588a4368328f407555d2ba4640b2dda.png.webp",
       "title": "Филадельфия с угрём ролл",
       "description": "Рис, нори, сыр филадельфия, угорь, лосось",
@@ -492,7 +492,7 @@
       "weight ": 167
     },
     {
-      "id": 5,
+      "id": "9107b9b1-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/4181b828755fb91e1270d56621dd2d10c0832228.png.webp",
       "title": "Калифорния ролл",
       "description": "Рис, нори, снежный краб, огурец, авокадо, икра масаго",
@@ -501,7 +501,7 @@
       "weight ": 156
     },
     {
-      "id": 6,
+      "id": "9107b9b2-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/57d36839548498bcaed1ac7095f8f4df5ae7d68d.png.webp",
       "title": "Калифорния с креветкой ролл",
       "description": "Рис, нори, креветка, авокадо, огурец, икра масаго",
@@ -510,7 +510,7 @@
       "weight ": 156
     },
     {
-      "id": 7,
+      "id": "9107b9b3-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/e2fa57f31aef0bacca03129e99e08e4989354d38.png.webp",
       "title": "Калифорния с угрём ролл",
       "description": "Рис, нори, угорь, авокадо, огурец, икра масаго",
@@ -519,7 +519,7 @@
       "weight ": 156
     },
     {
-      "id": 8,
+      "id": "9107b9b4-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/d4533099d0f03486a7b96b202f8b2b735dddc83d.png.webp",
       "title": "Калифорния с лососем ролл",
       "description": "Рис, нори, лосось, авокадо, огурец, икра масаго",
@@ -528,7 +528,7 @@
       "weight ": 156
     },
     {
-      "id": 9,
+      "id": "9107b9b5-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/de55ed52b288ff7b4b6df75bdf9aedf46b2ad096.png.webp",
       "title": "Канада ролл",
       "description": "Рис, нори, сыр филадельфия, огурец, угорь, соус унаги, кунжут",
@@ -537,7 +537,7 @@
       "weight ": 181
     },
     {
-      "id": 10,
+      "id": "9107b9b6-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/57d36839548498bcaed1ac7095f8f4df5ae7d68d.png.webp",
       "title": "Невада ролл",
       "description": "Рис, нори, сыр филадельфия, огурец, лосось, угорь, соус унаги, кунжут",
@@ -546,7 +546,7 @@
       "weight ": 179
     },
     {
-      "id": 11,
+      "id": "9107b9b7-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/57d36839548498bcaed1ac7095f8f4df5ae7d68d.png.webp",
       "title": "Эби ролл",
       "description": "Рис, нори, сыр филадельфия, креветка",
@@ -557,7 +557,7 @@
   ],
   "rolls": [
     {
-      "id": 0,
+      "id": "9107b9b8-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/4f8410b1d41084d7f4e4cc18e2cd773af29087ff.png.webp",
       "title": "Лосось суши 2шт.",
       "description": "Рис, лосось",
@@ -565,7 +565,7 @@
       "weight ": 167
     },
     {
-      "id": 1,
+      "id": "9107b9b9-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/0f418f508fd6af201488c75cfede915b8c507f3f.png.webp",
       "title": "Угорь суши 2шт.",
       "description": "Рис, угорь, нори  ",
@@ -573,7 +573,7 @@
       "weight ": 167
     },
     {
-      "id": 2,
+      "id": "9107b9ba-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/cb8e4504ad2f39eb59347f3207ba5332050a5616.png.webp",
       "title": "Спайс лосось гункан 2шт.",
       "description": "Рис, нори, лосось, соус спайс",
@@ -581,7 +581,7 @@
       "weight ": 167
     },
     {
-      "id": 3,
+      "id": "9107b9bb-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/74807fb4a9d54a89f044413104d7a0b3a2653636.png.webp",
       "title": "Спайс угорь гункан 2шт.",
       "description": "Рис, нори, угорь, соус спайс",
@@ -589,7 +589,7 @@
       "weight ": 167
     },
     {
-      "id": 4,
+      "id": "9107b9bc-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/12/bd5ec3cfd937b296f53700b3b825193a6a9edcc2.png.webp",
       "title": "Спайс креветка гункан 2шт.",
       "description": "Рис, нори, креветки, соус спайс",
@@ -599,7 +599,7 @@
   ],
   "sets": [
     {
-      "id": 0,
+      "id": "9107b9bd-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/03/a7194ed8b97dbb7ba12c96708fdfad3b7e73f501.png.webp",
       "title": "Классика сет",
       "description": "Ролл Канада(8шт.), ролл Филадельфия хит(8шт.), ролл Калифорния(8шт.), суши с лососем (2 шт.), суши с угрём (2 шт.)",
@@ -607,7 +607,7 @@
       "weight ": 167
     },
     {
-      "id": 1,
+      "id": "9107b9be-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/03/528469f3fd39d7a9084bd1473b08305b87c33484.png.webp",
       "title": "Филадельфия сет",
       "description": "Ролл Филадельфия(8шт.), ролл Филадельфия с огурцом(8шт.), ролл Филадельфия с креветкой(8шт.), ролл Филадельфия с угрём(8шт.)",
@@ -615,7 +615,7 @@
       "weight ": 167
     },
     {
-      "id": 2,
+      "id": "9107b9bf-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/03/72855116835a1a362976f22d122890e72c6ce45b.png.webp",
       "title": "Темпура сет",
       "description": "Бонсай темпура ролл(8шт.), Сакана темпура ролл(8шт.), Манхеттен темпура ролл(8шт.)",
@@ -623,7 +623,7 @@
       "weight ": 167
     },
     {
-      "id": 3,
+      "id": "9107b9c0-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/03/c15a1ce8df38e6a37f2f2cfc295f9338a4187762.png.webp",
       "title": "Запечённый сет",
       "description": "Калифорния запечённая(8шт.), ролл Самурай(8шт.), Балтимор ролл(8шт.)",
@@ -631,7 +631,7 @@
       "weight ": 167
     },
     {
-      "id": 4,
+      "id": "9107b9c1-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/03/41d812f3f439b2df12ffc2222e8e228089b4711e.png.webp",
       "title": "Микс сет",
       "description": "Ролл Филадельфия спайси(8шт.), ролл Филадельфия с огурцом(8шт.), ролл Балтимор(8шт.), ролл Бонсай(8шт.)",
@@ -639,7 +639,7 @@
       "weight ": 167
     },
     {
-      "id": 5,
+      "id": "9107b9c2-fe89-11ec-a891-613da8093501",
       "imageUrl": "https://kudapizza.ru/crp/450x450/storage/2022/02/23/c3faccebc70097bea1427cb8f099a64076098531.png.webp",
       "title": "Комбо",
       "description": "Пицца Песто 30см, ролл Филадельфия хит(8шт.), ролл Канада(8шт.)",

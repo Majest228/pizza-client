@@ -1,0 +1,65 @@
+@import "../../variables.scss";
+
+.header-content__right__basket {
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ff7010;
+  border: none;
+  border-radius: 4px;
+  width: 150px;
+  height: 50px;
+  &__left {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 10px;
+    }
+  }
+  &__text {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    color: #ffffff;
+    margin-left: 10px;
+    span {
+      margin-left: 2px;
+    }
+  }
+  &__right {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: $xl) {
+  .header-content__right__basket {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $lg) {
+}
+
+@media only screen and (max-width: $md) {
+}
+
+@media only screen and (max-width: $sm) {
+}

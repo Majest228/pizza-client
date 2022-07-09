@@ -20,6 +20,8 @@ const Basket = () => {
   const onChangeActiveTypeDelivery = (id) => {
     setActiveTypeDelivery(id);
   };
+  const { totalPrice } = useSelector((state) => state.cart);
+
   return (
     <div className="basket">
       <div className="basket-container">
@@ -42,7 +44,7 @@ const Basket = () => {
               <img src={Send} alt="" />
             </button>
           </div>
-          <p className="basket-fullprice__text">Итого: 2 379 ₽</p>
+          <p className="basket-fullprice__text">Итого: {totalPrice} ₽</p>
         </div>
         <div className="basket-info">
           <div className="basket-info__about">
@@ -200,7 +202,9 @@ const Basket = () => {
           </div>
           <div className="line"></div>
           <div className="basket-info__footer">
-            <span className="basket-info__footer__price">Итого: 2 379 ₽</span>
+            <span className="basket-info__footer__price">
+              Итого: {totalPrice} ₽
+            </span>
             <button className="basket-info__footer__btn">Оформить заказ</button>
           </div>
         </div>

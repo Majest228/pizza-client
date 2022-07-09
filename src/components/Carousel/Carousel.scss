@@ -1,6 +1,47 @@
+@import "../../variables.scss";
+
 .carousel {
-	max-width: 1463px;
-	margin: 34px auto;
-	display: flex;
-	justify-content: space-between;
+  max-width: 1463px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+@media only screen and (max-width: $xl) {
+  .carousel {
+    max-width: 921px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: $lg) {
+  .carousel {
+    max-width: 769px;
+    margin: 30px auto;
+    flex-direction: row;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: $md) {
+  .carousel {
+    max-width: 577px;
+    margin: 30px auto;
+    flex-direction: row;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: $sm) {
+  .carousel {
+    max-width: 321px;
+    margin: 30px auto;
+    flex-direction: row;
+    overflow: auto;
+  }
 }

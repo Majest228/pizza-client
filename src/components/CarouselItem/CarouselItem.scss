@@ -1,29 +1,86 @@
 $primary: #ff7010;
 $red: #e23535;
 
+@import "../../variables.scss";
+
 .orange {
-	background-color: $primary;
+  background-color: $primary;
 }
 
 .red {
-	background-color: $red;
+  background-color: $red;
 }
 
-.carousel__item {
-	min-width: 340px;
-	min-height: 343px;
-	border-radius: 12px;
-	&-img {
-		border-radius: 12px;
-	}
-	&-title {
-		font-family: 'Inter', sans-serif;
-		font-style: normal;
-		font-weight: 600;
-		font-size: 20px;
-		line-height: 28px;
-		max-width: 272px;
-		padding-left: 22px;
-		color: #ffffff;
-	}
+.carousel-item {
+  position: relative;
+  width: 300px;
+  height: 343px;
+  border-radius: 12px;
+  &__img {
+    border-radius: 12px;
+  }
+  &__title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 272px;
+    padding-left: 22px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: $xl) {
+  .carousel-item {
+    position: relative;
+    width: 280px;
+    height: 320px;
+    &__img {
+    }
+    &__title {
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: $lg) {
+  .carousel-item {
+    position: relative;
+    min-width: 280px;
+    min-height: 320px;
+    &__img {
+    }
+    &__title {
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: $md) {
+  .carousel-item {
+    position: relative;
+ min-width: 280px;
+    min-height: 320px;
+    &__img {
+    }
+    &__title {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: $sm) {
+  .carousel-item {
+    position: relative;
+    min-width: 280px;
+    min-height: 320px;
+    &__img {
+    }
+    &__title {
+      font-size: 12px;
+    }
+  }
 }

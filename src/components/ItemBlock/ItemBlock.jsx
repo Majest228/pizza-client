@@ -15,13 +15,16 @@ const ItemBlock = ({ item }) => {
   const closeModal = () => {
     setIsModal(false);
   };
-
+  const shortTitle =
+    item.description.length > 60
+      ? item.description.slice(0, 60) + "..."
+      : item.description;
   return (
     <div className="pizza__item">
       <img className="pizza__item-img" src={item.imageUrl} alt="" />
       <div className="pizza__item-text">
         <h3 className="pizza__item-title">{item.title}</h3>
-        <p className="pizza__item-description">{item.description}</p>
+        <p className="pizza__item-description">{shortTitle}</p>
       </div>
       <div className="pizza__item-footer">
         <button

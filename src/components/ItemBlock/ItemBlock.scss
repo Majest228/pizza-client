@@ -2,21 +2,21 @@
   background: #ffffff;
   border: 1px solid #f0f0f0;
   border-radius: 12px;
-  max-width: 300px;
-  max-height: 580px;
+  min-width: 300px;
+  min-height: 540px;
   margin-bottom: 30px;
-
+  display: flex;
+  flex-direction: column;
+  position: relative;
   &-text {
     margin-left: 20px;
     max-width: 240px;
     min-height: 120px;
     margin-top: 16px;
-
   }
-
   &-img {
-    max-width: 300px;
-    max-height: 300px;
+    width: 300px;
+    height: 300px;
   }
 
   &-title {
@@ -37,10 +37,12 @@
   }
 
   &-footer {
-    margin-left: 20px;
+    
     display: flex;
-    margin-bottom: 20px;
+    bottom: 20px;
+    left: 20px;
     align-items: center;
+    position: absolute;
     &-btn {
       cursor: pointer;
       background: #ff7010;
