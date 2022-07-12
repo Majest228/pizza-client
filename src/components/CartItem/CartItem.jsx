@@ -5,7 +5,7 @@ import { addItem } from "../../redux/slice/cartSlice";
 
 import Crest from "../../assets/img/crest.svg";
 
-const CartItem = ({ item, closeModal }) => {
+const CartItem = ({ item, closeModal, setIsModal }) => {
   const { imageUrl, id, title, description, price, types, sizes } = item;
   const typesName = ["Традиционное", "Тонкое"];
   const [activeType, setActiveType] = useState(0);
@@ -33,16 +33,24 @@ const CartItem = ({ item, closeModal }) => {
     };
     dispatch(addItem(obj));
   };
+  useEffect(() => {
+     document.body.addEventListener("click", (e) => {
+       if (!e.path.includes(modalRef.current)) {
+         setIsModal(false);
+       }
+     });
+  }, []);
+
+  const modalRef = useRef();
 
   return (
-    <div className="modal">
-      <div className="modal-dialog">
+      <div ref={modalRef} className="modal-dialog">
         <div className="modal-content">
           <img className="modal-content__img" src={item.imageUrl} alt="" />
           <div className="modal-content__body">
             <div className="modal-content__body__upper">
               <h3 className="modal-content__body__text">{title}</h3>
-              <button onClick={closeModal}>
+              <button onClick={setIsModal(false)}>
                 <img src={Crest} alt="" />
               </button>
             </div>
@@ -132,7 +140,6 @@ const CartItem = ({ item, closeModal }) => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

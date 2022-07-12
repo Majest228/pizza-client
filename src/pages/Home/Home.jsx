@@ -13,9 +13,9 @@ const Home = ({ pizzas, sushies, rolls, sets, isLoading }) => {
     </div>
   ));
   const pizzasList = pizzas.map((pizza) => <ItemBlock item={pizza} />);
-  // const sushiesList = sushies.map((sushi) => <ItemBlock item={sushi} />);
-  // const rollsList = rolls.map((roll) => <ItemBlock item={roll} />);
-  // const setsList = sets.map((sets) => <ItemBlock item={sets} />);
+  const sushiesList = sushies.map((sushi) => <ItemBlock item={sushi} />);
+  const rollsList = rolls.map((roll) => <ItemBlock item={roll} />);
+  const setsList = sets.map((sets) => <ItemBlock item={sets} />);
   return (
     <div>
       <MenuList />
@@ -26,13 +26,13 @@ const Home = ({ pizzas, sushies, rolls, sets, isLoading }) => {
       </div>
       <div className="container-items">{isLoading ? skeleton : pizzasList}</div>
       <h2 className="title">Роллы</h2>
-      {/* <div className="container-items" id="sushi">
+       <div className="container-items" id="sushi">
         {isLoading ? skeleton : sushiesList}
-      </div>
+      </div> 
       <h2 className="title">Суши</h2>
       <div className="container-items">{isLoading ? skeleton : rollsList}</div>
       <h2 className="title">Сеты</h2>
-      <div className="container-items">{isLoading ? skeleton : setsList}</div> */}
+      <div className="container-items">{isLoading ? skeleton : setsList}</div> 
     </div>
   );
 };
